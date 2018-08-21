@@ -1,3 +1,5 @@
+require "pry"
+
 cook = Captain.create(name: "Captain Cook", admiral: true)
 kidd = Captain.create(name: "Captain Kidd", admiral: true)
 william = Captain.create(name: "William Kyd", admiral: false)
